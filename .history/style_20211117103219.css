@@ -19,13 +19,9 @@ section{
     perspective: 1000px;
     animation: animateBg 10s ease-in-out infinite;
 }
-/*@keyframes animateBg{
-    0%, 100%{
-        transform: scale(1.6) rotate(-15deg);
-    }50%{
-        transform: scale(1.6) rotate(15deg);
-    }
-}*/
+@keyframes animateBg{
+    
+}
 .pattern .face{
     position: relative;
     width: 100%;
@@ -34,15 +30,14 @@ section{
     background-size: 100px 100px;
     animation: animate 1s linear infinite;
 }
-
-/*@keyframes animate{
+@keyframes animate{
     0%{
         background-position: 0;
     }
     100%{
         background-position: 100px;
     }
-}*/
+}
 
 .pattern .face.face2{
     height: 100vh;

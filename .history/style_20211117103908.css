@@ -25,7 +25,7 @@ section{
     }50%{
         transform: scale(1.6) rotate(15deg);
     }
-}*/
+}
 .pattern .face{
     position: relative;
     width: 100%;
